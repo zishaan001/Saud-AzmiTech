@@ -1,5 +1,10 @@
 
 
+* {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
   body{
@@ -60,6 +65,7 @@
 .item .name {
   font-weight:bold;
   margin-bottom:8px;
+  color:white
 }
 
 .item .title {
@@ -73,6 +79,8 @@
 
 .social {
   font-size:18px;
+  color:white;
+  margin-top:6px
 }
  
 .social a {
@@ -88,8 +96,6 @@
 /*--------------------------------------------------------------
 # Custom CSS End
 --------------------------------------------------------------*/
-
-
 
 
 /*--------------------------------------------------------------
@@ -110,14 +116,6 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Nunito", sans-serif;
-}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -1171,7 +1169,9 @@ section {
 }
 .member-info{
 	
-	margin-top:150px
+	margin-top:444px;
+	background-color:rgba(0, 0, 0, .5);
+	height:105px
 	
 }
 .team .member {
@@ -1209,6 +1209,7 @@ section {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+    color:white
 }
 
 .team .member .social a i {
@@ -2080,8 +2081,8 @@ section {
 }
 
 #footer .social-links a {
-  font-size: 18px;
-  display: inline-block;
+  font-size: 19px;
+  display: grid;
   background: #e43c5c;
   color: #fff;
   line-height: 1;
@@ -2089,8 +2090,8 @@ section {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   transition: 0.3s;
 }
 
@@ -2099,3 +2100,11 @@ section {
   color: #fff;
   text-decoration: none;
 }
+.social-links div{
+	padding-bottom:10px;
+}
+.text-center{
+	width:100%;
+	text-align:center !important
+}
+
