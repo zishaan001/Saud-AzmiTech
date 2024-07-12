@@ -2153,4 +2153,15 @@ section {
 {
 	color:#00BFFF
 }
-
+.member-info .social .bi-twitter:hover{
+	color:#1DA1F2
+}
+.member-info .social .bi-facebook:hover{
+	color:#316FF6
+}
+.member-info .social .bi-instagram:hover{
+	color:#fccc63
+}
+.member-info .bi-linkedin:hover{
+	color:#0077B5
+}
